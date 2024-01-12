@@ -166,10 +166,17 @@ b {
   margin-left: calc(var(--gutter) / 2 * -1);
 }
 
-.case-columns {
+.index-columns {
   display: flex;
   flex-wrap: wrap;
   grid-row-gap: var(--spacing-48);
+  padding: 0 var(--page-margin);
+  width: 100%;
+}
+
+.case-columns {
+  display: flex;
+  flex-wrap: wrap;
   padding: 0 var(--page-margin);
   width: 100%;
 }
